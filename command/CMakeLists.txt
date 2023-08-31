@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.14)
 # -- Main Script to run the Odometry --
 add_executable(run_odometry cmd_run_odometry.cpp odometry_runner.h odometry_runner.cpp)
 target_link_libraries(run_odometry PUBLIC CT_ICP SlamCore)
