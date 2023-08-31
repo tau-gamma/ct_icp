@@ -23,6 +23,18 @@ to more datasets.
 > release `ICRA-2022`
 >
 
+# Installation with Docker
+
+### To build docker image
+```bash
+docker build -t ct-icp:latest .   
+ ```
+
+### To run docker image
+```bash
+docker run -it ct-icp:latest /bin/bash
+```
+
 # Installation
 
 ### Requirements
